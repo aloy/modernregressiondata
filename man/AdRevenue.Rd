@@ -4,7 +4,7 @@
 \name{AdRevenue}
 \alias{AdRevenue}
 \title{U.S. Magazine Ad Revenue in 2006}
-\format{A data frame with 604 observation on the following 7 variables:
+\format{A data frame with 70 observations on the following 5 variables:
 \describe{
 \item{Magazine}{Magazine name}
 \item{ParentCompany}{Parent Company of the magazine}

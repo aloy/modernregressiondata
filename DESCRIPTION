@@ -1,11 +1,11 @@
 Package: modernregressiondata
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Data Sets for "A Modern Approach to Regression with R"
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Data sets for "A Modern Approach to Regression with R" (2009) 
+    by Simon J. Sheather.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

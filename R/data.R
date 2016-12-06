@@ -85,3 +85,89 @@
 #' \item{VacancyIndex}{the vacancy index}
 #' }
 "bayarea"
+
+#' 50:50 mixture of Normals
+#'
+#' @name bimodal
+#' @docType data
+#' @keywords datasets
+#' @usage data(bimodal)
+#' @format A data frame with 20 observations on 1 variable:
+#' \describe{
+#' \item{x}{simulated values from a 50:50 mixture of N(-1, 1/9) and N(1, 1/9)}
+#' }
+"bimodal"
+
+#' US treasury bond prices
+#'
+#' @name bonds
+#' @docType data
+#' @keywords datasets
+#' @usage data(bonds)
+#' @format A data frame with 35 observations on the following 3 variables:
+#' \describe{
+#' \item{Case}{ID for U.S. Treasury bonds maturing between 1994 and 1998}
+#' \item{CouponRate}{Coupon rate of the bond}
+#' \item{BidPrice}{The bid prices are listed per "face value" of \$100 to be paid at maturity}
+#' }
+"bonds"
+
+#' Monthly bookstore sales in Vienne, Austria
+#'
+#' @name bookstore
+#' @docType data
+#' @keywords datasets
+#' @usage data(bookstore)
+#' @format A data frame with 93 observations on the following 15 variables:
+#' \describe{
+#' \item{Sales}{Sales in hundreds of dollars}
+#' \item{Advert}{Advertising spend in the current month}
+#' \item{Lag1Advert}{Advertising spend in the previous month}
+#' \item{Time}{Time in months}
+#' \item{Month_2}{Dummy variable for month 2}
+#' \item{Month_3}{Dummy variable for month 3}
+#' \item{Month_4}{Dummy variable for month 4}
+#' \item{Month_5}{Dummy variable for month 5}
+#' \item{Month_6}{Dummy variable for month 6}
+#' \item{Month_7}{Dummy variable for month 7}
+#' \item{Month_8}{Dummy variable for month 8}
+#' \item{Month_9}{Dummy variable for month 9}
+#' \item{Month_10}{Dummy variable for month 10}
+#' \item{Month_11}{Dummy variable for month 11}
+#' \item{Month_12}{Dummy variable for month 12}
+#' }
+"bookstore"
+
+#' US treasury bond prices
+#'
+#' @name bonds
+#' @docType data
+#' @keywords datasets
+#' @usage data(bonds)
+#' @format A data frame with 35 observations on the following 3 variables:
+#' \describe{
+#' \item{Case}{ID for U.S. Treasury bonds maturing between 1994 and 1998}
+#' \item{CouponRate}{Coupon rate of the bond}
+#' \item{BidPrice}{The bid prices are listed per "face value" of \$100 to be paid at maturity}
+#' }
+"bonds"
+
+#' Prices of Bordeaux wines
+#'
+#' @name Bordeaux
+#' @docType data
+#' @keywords datasets
+#' @usage data(Bordeaux)
+#' @format A data frame with 72 observations on the following 9 variables:
+#' \describe{
+#' \item{Wine}{Name of the winery (character vector)}
+#' \item{Price}{price (in pounds sterling) of 12 bottles of wine}
+#' \item{ParkerPoints}{Robert Parker’s rating (out of 100)}
+#' \item{CoatesPoints}{Clive Coate’s rating (out of 20)}
+#' \item{P95andAbove}{Is Parker’s score above 95? 1 = yes, 0 = no}
+#' \item{FirstGrowth}{Is the wine a first growth?  1 = yes, 0 = no}
+#' \item{CultWine}{Is the wine considered to be a cult favorite?  1 = yes, 0 = no}
+#' \item{Pomerol}{Is the wine from Pomerol?  1 = yes, 0 = no}
+#' \item{VintageSuperstar}{Is the wine a vintage superstar as awarded by Parker?  1 = yes, 0 = no}
+#' }
+"Bordeaux"
