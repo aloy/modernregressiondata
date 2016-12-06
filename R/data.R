@@ -51,3 +51,37 @@
 #' \item{Sport}{Sport}
 #' }
 "ais"
+
+#' Swiss Bank Notes
+#'
+#' @name banknote
+#' @docType data
+#' @keywords datasets
+#' @usage data(banknote)
+#' @format A data frame with 200 observations on the following 7 variables:
+#' \describe{
+#' \item{Length}{length of the banknote (in mm)}
+#' \item{Left}{length of the left edge of the banknote (in mm)}
+#' \item{Right}{length of the right edge of the banknote (in mm)}
+#' \item{Bottom}{distance from the image to the bottom edge (in mm)}
+#' \item{Top}{distance from the image to the top edge (in mm)}
+#' \item{Diagonal}{length of the diagonal (in mm)}
+#' \item{Y}{Y=0 if counterfeit, and Y=1 if genuine}
+#' }
+"banknote"
+
+#' Interest rates in the Bay Area
+#'
+#' @name bayarea
+#' @docType data
+#' @keywords datasets
+#' @usage data(bayarea)
+#' @format A data frame with 19 observations on the following 5 variables:
+#' \describe{
+#' \item{Month}{month index, 1-19, starting with June}
+#' \item{MonthName}{name of month}
+#' \item{InterestRate}{interest rate}
+#' \item{LoansClosed}{the amount of loans closed (in millions of dollars)}
+#' \item{VacancyIndex}{the vacancy index}
+#' }
+"bayarea"
